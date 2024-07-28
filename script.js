@@ -12,7 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
         else {
     const li = document.createElement("classList.add");
     li.textContent = taskText;
-        
+    
+    const removeButton = document.createElement("button")
     const removeButton = document.createElement("remove-btn");
     removeButton.textcontent = "Remove";
     removeButton.className = "remove.btn";
