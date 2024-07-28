@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
     const li = document.createElementNS('li');
-    li.textContent = taslText;
+    li.textContent = taskText;
 
     const removeButton = document.createElement('button');
     removeButton.textcontent = "Remove";
